@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ac260dd4ed0d04bb267b34617dd729, type: 3}
+  m_Name: Rouge
+  m_EditorClassIdentifier: 
+  className: Rouge
+  ClassID: 3
+  HP: 10
+  startingGold: 35
+  baseDamage: 13
+  abilityScores: 0c0000000f0000000a0000000e0000000d00000008000000
+  attacks:
+  - {fileID: 11400000, guid: f6704b2ca6cc4be46967f8d15b11af49, type: 2}
+  - {fileID: 11400000, guid: 7f4064067c4d79a4f997382a0421b31c, type: 2}

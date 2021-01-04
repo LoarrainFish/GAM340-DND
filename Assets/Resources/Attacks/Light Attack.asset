@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3544e6f049ad37438fda4e34f5beca4, type: 3}
+  m_Name: Light Attack
+  m_EditorClassIdentifier: 
+  AttackID: 2
+  attackDescriptionBase: 'Using your sword you decide to go for a tactical attack,
+    not to hard but enough to deal a nice amount of damage. '
+  attackDescriptionSuccess: 'Paying close attention to your balance and the weight
+    of the sword you strike forward hitting the creature dealing that nice amount
+    of damage you were looking for. '
+  attackDescriptionFailure: While striking down the creature quickly dodges your attack
+    misses by meer inches.
+  attackDescSmall: '[LIGHT ATTACK]'
+  damageDiceAmount: 3
+  damageDiceType: 4
+  attackBonus: 6
+  AttackDC: 13

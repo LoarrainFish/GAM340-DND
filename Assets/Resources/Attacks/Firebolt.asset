@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3544e6f049ad37438fda4e34f5beca4, type: 3}
+  m_Name: Firebolt
+  m_EditorClassIdentifier: 
+  AttackID: 6
+  attackDescriptionBase: 'You feel the warmth in the air. You channel your energy
+    into your hands sparking a fireball. You hold it for a second and then throw
+    it out towards you foe. '
+  attackDescriptionSuccess: 'The firebolt explodes on the enemy! '
+  attackDescriptionFailure: You burn your fingers as you fail to cast the ball outward.
+  attackDescSmall: '[SPELL: FIREBALL]'
+  damageDiceAmount: 6
+  damageDiceType: 6
+  attackBonus: 3
+  AttackDC: 17

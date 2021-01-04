@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ac260dd4ed0d04bb267b34617dd729, type: 3}
+  m_Name: Paladin
+  m_EditorClassIdentifier: 
+  className: 'Paladin '
+  ClassID: 2
+  HP: 10
+  startingGold: 10
+  baseDamage: 15
+  abilityScores: 0f0000000d0000000a0000000c000000080000000e000000
+  attacks:
+  - {fileID: 11400000, guid: f6704b2ca6cc4be46967f8d15b11af49, type: 2}
+  - {fileID: 11400000, guid: 7f4064067c4d79a4f997382a0421b31c, type: 2}
+  - {fileID: 11400000, guid: 149526eb9304c0144b2d7f30776f01aa, type: 2}
